@@ -7,7 +7,7 @@ import 'package:image_picker/image_picker.dart';
 import 'details.dart';
 
 main() async {
-  runApp(MaterialApp(home: MyApp()));
+  runApp(MaterialApp(debugShowCheckedModeBanner: false, home: MyApp()));
 }
 
 class MyApp extends StatefulWidget {
@@ -53,10 +53,11 @@ class _MyAppState extends State<MyApp> {
 
   Future scanText() async {
     showDialog(
-        context: context,
-        child: Center(
-          child: CircularProgressIndicator(),
-        ));
+      builder: (context) => Center(
+        child: CircularProgressIndicator(),
+      ),
+      context: context,
+    );
     final FirebaseVisionImage visionImage =
         FirebaseVisionImage.fromFile(File(_image.path));
     final TextRecognizer textRecognizer =

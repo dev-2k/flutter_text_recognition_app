@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "408254452202",
-    "project_id": "text-recognition-cf011",
-    "storage_bucket": "text-recognition-cf011.appspot.com"
+    "project_number": "1062397369924",
+    "project_id": "text-recognition-flutter-app",
+    "storage_bucket": "text-recognition-flutter-app.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:408254452202:android:4b43b1dddd15b5f3ae6293",
+        "mobilesdk_app_id": "1:1062397369924:android:7e93d0b28c8c8df726a611",
         "android_client_info": {
-          "package_name": "com.example.text_recognition_project"
+          "package_name": "com.devkumar.text_recognition_project"
         }
       },
       "oauth_client": [
         {
-          "client_id": "408254452202-1bck5sog7o2bkovtsvsd20m2q5equ3qs.apps.googleusercontent.com",
+          "client_id": "1062397369924-mq565s3iov6uh25t4rgbvd4gmvsimn6h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAbDUpAk3eiPvhfgjr3WHiNtkSROwUF1Bs"
+          "current_key": "AIzaSyDD92X-SNH_HkTwpADkpMBHr5y4Z9YNMKg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "408254452202-1bck5sog7o2bkovtsvsd20m2q5equ3qs.apps.googleusercontent.com",
+              "client_id": "1062397369924-mq565s3iov6uh25t4rgbvd4gmvsimn6h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
